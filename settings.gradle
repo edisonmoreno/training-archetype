@@ -3,6 +3,13 @@ rootProject.name = 'archetype'
 include ':app-service'
 include ':model'
 include ':usecase'
+include ':domain-service'
 project(':app-service').projectDir = file('./applications/app-service')
 project(':model').projectDir = file('./domain/model')
 project(':usecase').projectDir = file('./domain/usecase')
+project(':domain-service').projectDir = file('./domain/domain-service')
+include ':reactive-web'
+project(':reactive-web').projectDir = file('./infrastructure/entry-points/reactive-web')
+include ':mongo-repository'
+project(':mongo-repository').projectDir = file('./infrastructure/driven-adapters/mongo-repository')
+

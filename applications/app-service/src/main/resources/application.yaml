@@ -12,3 +12,6 @@ spring:
       path: /h2
   profiles:
     include:
+  data:
+    mongodb:
+      uri: "mongodb://asp-net-core-first-app-mongodb-dev:BmwdeAeARH67YJA4RR1lRMMg7EdXqogyXz7Mbj5zWVUKqchY1XOu3FXInEFyyvKviTLZqvMrTcvR2iBb0AnH7Q%3D%3D@asp-net-core-first-app-mongodb-dev.mongo.cosmos.azure.com:10255/participants?replicaSet=rs0&retryWrites=true&w=majority&maxPoolSize=15&connectTimeoutMS=30000"

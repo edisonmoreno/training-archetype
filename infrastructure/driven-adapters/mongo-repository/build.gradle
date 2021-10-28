@@ -1,0 +1,12 @@
+dependencies {
+    implementation project(':model')
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive:2.5.5'
+    implementation 'org.reactivecommons.utils:object-mapper-api:0.1.0'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+
+    testImplementation 'org.reactivecommons.utils:object-mapper:0.1.0'
+
+    implementation 'org.apache.pdfbox:preflight:2.0.16'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.16'
+}
